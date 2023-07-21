@@ -1,1 +1,1 @@
-## Creating a few website templates from Travesy Media HTML & CSS Playlist
+## Creating a few website templates from Traversy Media HTML & CSS Playlist
