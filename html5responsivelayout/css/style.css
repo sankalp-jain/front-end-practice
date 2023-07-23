@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: 3px solid coral;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  list-style-type: none;
+  display: inline;
+}
+
+#navbar a, a:visited, a:hover, a:active  {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+#navbar li{
+  padding-right: 25px;
+}
+
+#navbar li:first-child a{
+  color: coral;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.clr {
+  clear: both;
+}
+
+#navbar {
+  background-color: #555;
+  margin: 0;
+  padding: 35px;
+}
+
+#logo {
+  float: left;
+  width: 65%;
+  font-size: 32px;
+  color: #fff;
+}
+
+#navigationHeadings {
+  float: right;
+  width: 35%;
+}
+
+#logoText {
+  color: coral;
+  font-weight: 800;
+}
+
+#newsletter {
+  background-color: #555;
+  margin: 0;
+  padding: 35px;
+}
+
+#newsletter p {
+  margin: 0;
+  padding: 0;
+}
+
+#newsletter #subscribeText {
+  float: left;
+  width: 60%;
+}
+
+#newsletter #subscribe {
+  float: right;
+  width: 40%;
+}
+
+#hero {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/showcase.jpg");
+}
+
+#callout {
+  text-align: center;
+}
+
+#heading {
+  color: white;
+  font-size: 55px;
+  font-weight: 200;
+  margin-top: 15%;
+}
+
+#sub-heading {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+#features {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#feature-1 {
+  float: left;
+  width: 33.3%;
+}
+
+#feature-2 {
+  float: left;
+  width: 33.3%;
+}
+
+#feature-3 {
+  float: left;
+  width: 33.3%;
+}
