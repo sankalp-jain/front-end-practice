@@ -33,12 +33,12 @@ a:hover {
   color: #46515c;
 }
 
-ul, li {
+ul{
   padding: 0;
 }
 
 li {
-  list-style: none;
+  padding: 4px;
 }
 
 .container {

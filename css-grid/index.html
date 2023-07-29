@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      /* column-gap: 1em;
+      row-gap: 1em; */
+      gap: 1em;
+    }
+
+    .wrapper > div {
+      background-color: #eee;
+      padding: 1em;
+    }
+
+    .wrapper > div:nth-child(odd) {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, dignissimos minus ducimus est explicabo autem accusantium sunt, placeat iure deserunt sint vero sed molestiae, ab harum! Neque inventore facere totam impedit reiciendis commodi harum libero nihil sequi delectus quam, necessitatibus facilis assumenda? Consequatur, maxime? Aliquid eius quia itaque esse dolorem, ipsum rerum. Nemo inventore omnis cum soluta, ipsa nesciunt quidem quibusdam, hic odit provident praesentium culpa, consequatur eveniet illo aliquam expedita repudiandae numquam eaque amet. Animi doloribus quae sapiente? Quam.
+    </div>
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad odio quidem a natus, ratione et possimus soluta quos, voluptatum corrupti adipisci illum numquam officiis consequuntur non nostrum ut, quas distinctio?
+    </div>
+
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, dignissimos minus ducimus est explicabo autem accusantium sunt, placeat iure deserunt sint vero sed molestiae, ab harum! Neque inventore facere totam impedit reiciendis commodi harum libero nihil sequi delectus quam, necessitatibus facilis assumenda? Consequatur, maxime? Aliquid eius quia itaque esse dolorem, ipsum rerum. Nemo inventore omnis cum soluta, ipsa nesciunt quidem quibusdam, hic odit provident praesentium culpa, consequatur eveniet illo aliquam expedita repudiandae numquam eaque amet. Animi doloribus quae sapiente? Quam.
+    </div>
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad odio quidem a natus, ratione et possimus soluta quos, voluptatum corrupti adipisci illum numquam officiis consequuntur non nostrum ut, quas distinctio?
+    </div>
+
+  </div>
+
+</body>
+</html>
