@@ -7,71 +7,81 @@
   <title>Acme Web Design</title>
 </head>
 <body>
-  <div id="hero">
-    <nav id="navbar">
-      <div class="container">
-        <div id="logo">
-          <a href="home.html"><span id="logoText">Acme&nbsp;</span>Web Design</a>
+  <div id="page-container">
+    <div id="hero">
+      <nav id="navbar">
+        <div class="container">
+          <div id="logo">
+            <a href="home.html"><span id="logoText">Acme&nbsp;</span>Web Design</a>
+          </div>
+          <div id="navigationHeadings">
+            <ul>
+              <li><a class="active" href="home.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+            </ul>
+          </div>
+          <div class="clr"></div>
         </div>
-        <div id="navigationHeadings">
-          <ul>
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-          </ul>
-        </div>
-        <div class="clr"></div>
+      </nav>
+
+      <hr />
+
+      <div class="container" id="callout">
+        <h2 id="heading">Affordable professional websites</h2>
+        <h3 id="sub-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Tempore, animi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, soluta?</h3>
       </div>
-    </nav>
 
-    <hr />
-
-    <div class="container" id="callout">
-      <h2 id="heading">Affordable professional websites</h2>
-      <h3 id="sub-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Tempore, animi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, soluta?</h3>
+      <section id="newsletter">
+        <div class="container">
+          <div id="subscribeText">
+            <p>Subscribe to our newsletter</p>
+          </div>
+          <div id="subscribe">
+            <input type="text" placeholder="Enter Email">
+            <input type="submit" name="subscribeNewsletter" id="subscribeNewsletter" value="Subscribe">
+          </div>
+          <div class="clr"></div>
+        </div>
+      </section>
     </div>
 
-    <section id="newsletter">
-      <div class="container">
-        <div id="subscribeText">
-          <p>Subscribe to our newsletter</p>
+    <div id="features" class="container">
+      <div class="feature" id="feature-1">
+        <img src="img/logo_html.png" alt="" width="60" height="60">
+        <div class="featureText">
+          <p class="featureDescription">HTML5 Markup</p>
+          <p class="featureSubDescription">Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Error, aliquam.</p>
         </div>
-        <div id="subscribe">
-          <input type="text" placeholder="Enter Email">
-          <input type="submit" name="subscribeNewsletter" id="subscribeNewsletter">
-        </div>
-        <div class="clr"></div>
       </div>
-    </section>
+
+      <div class="feature" id="feature-2">
+        <img src="img/logo_css.png" alt="" width="60" height="60">
+        <div class="featureText">
+          <p class="featureDescription">CSS3 Styling</p>
+          <p class="featureSubDescription">Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Error, aliquam.</p>
+        </div>
+      </div>
+
+      <div class="feature" id="feature-3">
+        <img src="img/logo_brush.png" alt="" width="60" height="60">
+        <div class="featureText">
+          <p class="featureDescription">Graphic Design</p>
+          <p class="featureSubDescription">Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Error, aliquam.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <footer id="main-footer">
+      <p>Acme Web Design, Copyright &copy; 2023</p>
+    </footer>
+
   </div>
-
-  <div id="features" class="container">
-    <div class="feature" id="feature-1">
-      <img src="img/logo_html.png" alt="" width="60" height="60">
-      <p class="featureDescription">HTML5 Markup</p>
-      <p class="featureSubDescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, aliquam.</p>
-    </div>
-
-    <div class="feature" id="feature-2">
-      <img src="img/logo_css.png" alt="" width="60" height="60">
-      <p class="featureDescription">CSS3 Styling</p>
-      <p class="featureSubDescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, aliquam.</p>
-    </div>
-
-    <div class="feature" id="feature-3">
-      <img src="img/logo_brush.png" alt="" width="60" height="60">
-      <p class="featureDescription">Graphic Design</p>
-      <p class="featureSubDescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, aliquam.</p>
-    </div>
-  </div>
-
-  <div class="clr"></div>
-
-  <footer>
-    <p>Acme Web Design, Copyright &copy; 2023</p>
-  </footer>
-
-
 </body>
 </html>

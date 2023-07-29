@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Acme Web Design</title>
+</head>
+<body>
+  <div id="page-container">
+    <div id="hero">
+      <nav id="navbar">
+        <div class="container">
+          <div id="logo">
+            <a href="home.html"><span id="logoText">Acme&nbsp;</span>Web Design</a>
+          </div>
+          <div id="navigationHeadings">
+            <ul>
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a class="active" href="services.html">SERVICES</a></li>
+            </ul>
+          </div>
+          <div class="clr"></div>
+        </div>
+      </nav>
+
+      <hr id="separator"/>
+
+      <section id="newsletter">
+        <div class="container">
+          <div id="subscribeText">
+            <p>Subscribe to our newsletter</p>
+          </div>
+          <div id="subscribe">
+            <input type="text" placeholder="Enter Email">
+            <input type="submit" name="subscribeNewsletter" id="subscribeNewsletter" value="Subscribe">
+          </div>
+          <div class="clr"></div>
+        </div>
+      </section>
+    </div>
+
+    <section id="services">
+      <div class="container">
+        <div class="servicesContainer">
+          <p id="servicesHeading">
+            Services
+          </p>
+
+          <ul>
+            <li>
+              <p id="servicesDescription">Website Design</p>
+              <p id="serviceSubDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam provident nisi recusandae voluptatum molestiae voluptas est.
+                Ipsum totam, consequuntur in soluta impedit suscipit quibusdam non!
+              </p>
+            </li>
+
+            <li>
+              <p id="servicesDescription">Website Maintenance</p>
+              <p id="serviceSubDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam provident nisi recusandae voluptatum molestiae voluptas est.
+                Ipsum totam, consequuntur in soluta impedit suscipit quibusdam non!
+              </p>
+            </li>
+
+            <li>
+              <p id="servicesDescription">Website Hosting</p>
+              <p id="serviceSubDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam provident nisi recusandae voluptatum molestiae voluptas est.
+                Ipsum totam, consequuntur in soluta impedit suscipit quibusdam non!
+              </p>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="quoteContainer">
+          <p class="quoteHeading">Get a quote</p>
+          <form action="index.php">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Email">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <input type="submit" name="submitQuote" id="submitQuote" value="Send">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>Acme Web Design, Copyright &copy; 2023</p>
+    </footer>
+
+  </div>
+</body>
+</html>
